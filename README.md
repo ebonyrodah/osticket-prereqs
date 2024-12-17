@@ -20,7 +20,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
+1. Operating system
+   -Windows 10, Windows server 2012 or newer
+2. Web server
+    -IIS (Internet Information Services) version 7 or newer incase you are using windows
+    -Apache version 2.4 or newer if you are using linux
+3. PHP
+    -Supported versions: PHP 7.2 to 8.1 ((osTicket 1.15.8 is compatible with these)
+    -Enable PHP extentions,examples of the ones that will be enabled are;
+          - **php_imap.dll**: for fetching and sending emails.
+          - **php_intl.dll**: For internationalization support.
+          - **php_opcache.dll**: For performance optimization.
+
+  
 - Item 2
 - Item 3
 - Item 4
