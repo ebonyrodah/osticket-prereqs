@@ -28,8 +28,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 3. PHP
     -Supported versions: PHP 7.2 to 8.1 ((osTicket 1.15.8 is compatible with these)
     -Enable PHP extentions,examples of the ones that will be enabled are;
+   
           - **php_imap.dll**: for fetching and sending emails.
+   
           - **php_intl.dll**: For internationalization support.
+   
           - **php_opcache.dll**: For performance optimization.
 
   
