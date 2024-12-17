@@ -20,26 +20,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-1. Operating system
-   -Windows 10, Windows server 2012 or newer
-2. Web server
-    -IIS (Internet Information Services) version 7 or newer incase you are using windows
-    -Apache version 2.4 or newer if you are using linux
-3. PHP
-    -Supported versions: PHP 7.2 to 8.1 ((osTicket 1.15.8 is compatible with these)
-    -Enable PHP extentions,examples of the ones that will be enabled are;
-   
-          - **php_imap.dll**: for fetching and sending emails.
-   
-          - **php_intl.dll**: For internationalization support.
-   
-          - **php_opcache.dll**: For performance optimization.
+   ### **1. Operating system**
+   - Windows 10, Windows server 2012 or newer
+   ### **2. Web server**
+   - IIS (Internet Information Services) version 7 or newer incase you are using windows.
+   - Apache version 2.4 or newer if you are using linux.
+   ### **3. PHP**
+   - Supported versions: PHP 7.2 to 8.1 (osTicket 1.15.8 is compatible with these)
+   - Enable PHP extentions,examples of the ones that will be enabled are;
+     - **php_imap.dll**: for fetching and sending emails.
+     - **php_intl.dll**: For internationalization support.
+     - **php_opcache.dll**: For performance optimization.
+   ### **4. Dependencies and Tools**
+   - PHP manager for IIS : PHP Manager simplifies configuring and managing PHP for IIS.
+   - URL rewrite module  : It helps in creating clean URLs and improves SEO and user experience.
+   - Microsoft Visual C++ Redistributable : this is normally required for running PHP.
+   - HeidiSQL(Optional) : Used by backend administrators to connect to the MYSQL database that osTicket uses.
+   ### **5. osTicket Software**
+   - Download the latest stable release of osTicket (osTicket-v1.15.8).
+   ### **6. Browser Access**
+   - A modern web browser (e.g., Chrome, Firefox, Edge) to access and configure osTicket via its web interface.
+   ### **7. Hardware Requirements**
+   - Memory : Atleast 2 GB minimum (4 GB or more recommended for larger environments).
+   - Processor : Minimum 2 GHz (recommendation: multi-core).
+   - Storage : At least 10 GB free space for the operating system, database, and attachments.
 
-  
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+
 
 <h2>Installation Steps</h2>
 
